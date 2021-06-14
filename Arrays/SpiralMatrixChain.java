@@ -21,7 +21,9 @@ public class SpiralMatrixChain {
     }
 
     private static void printSpiral(int[][] arr, int m, int n) {
+        //represent last row
         m--;
+        //represent last column
         n--;
         //reprsent first column
         int k=0;
